@@ -1,7 +1,10 @@
+var bubbleImage = loadImage("https://content.mycutegraphics.com/graphics/fun/boy-playing-with-bubbles.png");
+
 setup = function() {
     size(400, 600); 
     background(12, 47, 122);
       textSize(40);
+      
     
     var x = 0;
 while (x < 700) {
@@ -20,7 +23,9 @@ for (var y = 20; y <700; y+= 50) {
    text('🔵  🔵🔵 🔵 🔵🔵 🔵', 50, y);
    textSize(30);
 }
-    
+    draw = function(){
+    image(bubbleImage, 200, 100, 120, 200);
+    }
 };
 
 
