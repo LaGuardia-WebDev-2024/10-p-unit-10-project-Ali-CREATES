@@ -6,6 +6,10 @@ body {
   background-attachment: fixed; 
   margin-top: 10%;
   font-family: Georgia, serif;
+   background-image: url('https://i.pinimg.com/736x/d6/3d/94/d63d9427baafb2a6a72cd2e5d7753a07.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center; 
 }
 
 html{
@@ -15,6 +19,7 @@ html{
 
 #myCanvas {
   border: 1px solid black;
+  
 }
 
 .container{
@@ -24,6 +29,10 @@ html{
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
+   background-image: url('https://i.pinimg.com/736x/d6/3d/94/d63d9427baafb2a6a72cd2e5d7753a07.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center; 
 }
 
 .pic{
@@ -31,11 +40,15 @@ html{
   width: 400px;
   object-fit: cover;
   border: 1px solid black;
+ 
 }
 
 h2{
   color: black;
 }
+h3{color: blue;}
+h4{color: black;}
+h5{color: blue;}
 
 #start{
   text-align: left;
